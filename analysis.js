@@ -426,7 +426,7 @@ function pitch(x){
 			vals = getChordPredictions(possibleChords, pitches, onset, duration, strength_data, prev_chord);
 			indexVal = vals[0];
 			prev_chord = vals[1];
-			for (x=0;x<7;x++)
+			for (x=0;x<6;x++)
 			{
 				if (chord_bank_edited[indexVal][x + 1] != 'None'){
 					currentChord.length ++;
